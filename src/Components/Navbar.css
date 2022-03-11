@@ -79,12 +79,12 @@ nav .menu{
     width: 100%;
   }
 }
-@media (max-width:355px){
+@media (max-width:360px){
   nav ul{
     width: 100%;
   }
   nav .logo{
-    padding: 18px 24px;
+    padding: 18px 20px;
   }
   nav ul li{
     margin-left: -30px;

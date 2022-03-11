@@ -103,9 +103,9 @@
     }
     
 }
-@media (max-width:355px){
+@media (max-width:360px){
     .home-content{
-        margin-left: -52px;
+        margin-left: -42px;
     }
     .home .home-content .text-2{
         font-size: 30px;   

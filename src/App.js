@@ -8,8 +8,10 @@ import Skills from './Components/Skills';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 function App() {
+
   return (
 <div>
+
      <Navbar color="crimson"/>
      <Home/>
      <About/>

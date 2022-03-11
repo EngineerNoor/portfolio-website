@@ -171,12 +171,12 @@ section{
       margin-left: 55px;
     }
   }
-  @media (max-width:355px){
+  @media (max-width:360px){
     .max-width{
       padding: 0 40px;
      }
     .box1{
       margin-top: 5px;
-      margin-left: 25px;
+      margin-left: 35px;
     }
   }

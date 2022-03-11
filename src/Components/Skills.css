@@ -95,7 +95,6 @@ section{
    .skill-content .right .java::before{
     width: 70%;
    }
-
    @media (max-width:796px){
     .skill .skill-content .left a{
         font-size: 16px;
@@ -119,6 +118,7 @@ section{
     }
     .skill .skill-content .left{
         width: 80vw;
+        word-break: break-all;
     }
     .skill .skill-content .right{
         width: 80vw;

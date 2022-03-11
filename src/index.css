@@ -28,6 +28,7 @@ section .title{
   padding-bottom: 24px;
   font-family: 'Ubuntu',sans-serif;
   color: white;
+  margin-top: -22px;
 }
 section .title::before{
   content: "";
