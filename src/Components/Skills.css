@@ -1,0 +1,130 @@
+section{
+    padding: 100px 0;
+}
+.skill{
+    font-family: 'Poppins',sans-serif;
+}
+.skill .title{
+    text-align: center;
+}
+
+.skill .title::after{
+    content: "what i know";
+    background-color: #17404c;
+}
+.skill .skill-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill .skill-content .left{
+    width: 45%;
+}
+.skill .skill-content .left p{
+    color: white;
+    text-align: justify;
+}
+.skill .skill-content .left a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: crimson;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 3px 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.skill .skill-content .left a:hover{
+    color: crimson;
+    background-color: transparent;
+}
+.skill .skill-content .left .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: white;
+}
+.skill .skill-content .right{
+    width: 50%;
+}
+.skill .skill-content .right .bars{
+   margin-bottom: 15px;
+}
+.skill .skill-content .right .info{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skill .skill-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+.skill .skill-content .right .line{
+    height: 5px;
+    width: 100%;
+    background-color: lightgray;
+    position: relative;
+}
+.skill .skill-content .right .line::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0%;
+  top: 0;
+ background: crimson;
+}
+.skill-content .right .html::before{
+ width: 100%;
+}
+.skill-content .right .css::before{
+    width: 90%;
+   }
+   .skill-content .right .javascript::before{
+    width: 80%;
+   }
+   .skill-content .right .reactjs::before{
+    width: 90%;
+   }
+   .skill-content .right .java::before{
+    width: 70%;
+   }
+
+   @media (max-width:796px){
+    .skill .skill-content .left a{
+        font-size: 16px;
+        font-weight: 400;
+        padding: 3px 6px;
+    }
+   }
+  @media (max-width:745px){
+    .skill .skill-content .left{
+        width: 100%;
+    }
+    .skill .skill-content .right{
+        width: 100%;
+        margin-top: 40px;
+    }
+  }
+@media (max-width:403px){
+    .skill .title::after{
+        content: "what i know";
+        background-color: #17404c;
+    }
+    .skill .skill-content .left{
+        width: 80vw;
+    }
+    .skill .skill-content .right{
+        width: 80vw;
+        margin-top: 40px;
+    }
+    .max-width{
+     padding: 0 40px;
+    }
+}

@@ -1,0 +1,120 @@
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    background: url('../Components/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+}
+.home .home-content a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: crimson;
+    font-size: 25px;
+    padding: 8px 24px;
+    margin-top: 20px;
+    border-radius: 6px;
+   
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: crimson;
+    background-color: transparent;
+    border: 1px solid crimson;
+}
+
+@media (max-width: 940px){
+    .home{
+        height: 90vh;
+        width: 100vw;
+    }
+}
+@media (max-width:1200px){
+    .home{
+        height: 80vh;
+        width: 100vw;
+    }
+}
+@media (max-width:796px){
+    .home{
+        height: 70vh;
+        width: 100vw;
+    }
+    .home .home-content .text-2{
+        font-size: 55px;
+    }
+}
+@media (max-width:690px){
+    .home .home-content .text-2{
+        font-size: 45px;
+        
+    }
+}
+@media (max-width:671px){
+    .home{
+        height: 60vh;
+        width: 100vw;
+    }
+    .home .home-content a{
+        font-size: 18px;
+        padding: 8px 18px;
+        margin-top: 20px;
+    }
+}
+@media (max-width:469px){
+    .home{
+        height: 60vh;
+        width: 100%;
+    }
+    .home .home-content .text-2{
+        font-size: 35px;   
+    }
+    .home .home-content .text-1{
+        font-size: 20px;
+    }
+    .home .home-content .text-3{
+        font-size: 30px;
+    }
+    
+}
+@media (max-width:355px){
+    .home-content{
+        margin-left: -52px;
+    }
+    .home .home-content .text-2{
+        font-size: 30px;   
+    }
+    .home .home-content .text-3{
+        font-size: 21px;
+    }
+    .max-width{
+        padding: 0 40px;
+       }
+    
+}

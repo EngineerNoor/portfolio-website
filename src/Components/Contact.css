@@ -1,0 +1,204 @@
+section{
+    padding: 100px,0;
+}
+.contact{
+    font-family: 'Poppins',sans-serif;
+}
+.contact .contact-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact .contact-content .left{
+    width: 45%;
+    margin-bottom: 183px;
+}
+.contact .contact-content .text{
+   font-size: 20px;
+   font-weight: 600;
+   margin-bottom: 26px;
+   color: white;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+    color: white;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .title::after{
+    content: "get in touch";
+}
+.row .info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+}
+.row .info .head{
+    color: white;
+    font-weight:600;
+}
+.row .info .sub-title{
+    color: rgb(235, 129, 129);
+    font-weight: 300;
+}
+.row .info .Icon{
+    font-size:28px;
+    color: crimson;
+    margin-right: 24px;
+}
+.contact .right{
+    margin-right: 118px;
+    margin-bottom: 154px;
+}
+.contact .right .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.contact .right form .field input{
+    height: 100%;
+    width: 140%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    background: transparent;
+    color: white;
+}
+.contact .right form .field textarea{
+    outline: none;
+    padding: 0 15px;
+    width: 140%;
+    border-radius: 6px;
+    height: 94px;
+    background: transparent;
+    color: white;
+}
+.contact .contact-content button{
+ width: 131px;
+ align-items: center;
+ padding: 10px 6px;
+ border: 2px solid none;
+ border-radius: 7px;
+border: 2px solid crimson;
+ cursor: pointer;
+font-weight: bold;
+ background: crimson;
+color: white;
+margin-top: 48px;
+margin-left: 119px;
+font-family: sans-serif;
+}
+.contact .contact-content button:hover{
+    color: crimson;
+    background-color: transparent;
+}
+@media (max-width:883px){
+    .contact .contact-content .left{
+        width: 65%;
+        margin-bottom: 100px;
+        margin-left: 270px;
+    }
+    .contact .right{
+        margin-left: 170px;
+    }
+}
+@media (max-width:796px){
+    .contact .contact-content .left{
+        width: 65%;
+        margin-bottom: 100px;
+        margin-left: 220px;
+    }
+    .contact .right{
+        margin-left: 150px;
+    }
+}
+
+@media (max-width:745px){
+    .contact .contact-content .left{
+        width: 65%;
+        margin-bottom: 100px;
+        margin-left: 210px;
+    }
+    .contact .right{
+        margin-left: 120px;
+    }
+}
+@media (max-width:690px){
+    .contact .contact-content .left{
+        margin-left: 180px;
+    }
+    .contact .right{
+        margin-left: 100px;
+    }
+}
+@media (max-width:665px){
+    .contact .contact-content .left{
+        width: 65%;
+        margin-bottom: 100px;
+        margin-left: 160px;
+    }
+    .contact .right{
+        margin-left: 100px;
+    }
+}
+@media (max-width:623px){
+    .contact .contact-content .left{
+        width: 65%;
+        margin-bottom: 100px;
+        margin-left: 160px;
+    }
+    .contact .right{
+        margin-left: 90px;
+    }.contact .contact-content button{
+       margin-left: 90px;
+    }
+}
+@media (max-width:565px){
+    .contact .contact-content .left{
+        width: 65%;
+        margin-bottom: 100px;
+        margin-left: 120px;
+    }
+    .contact .right{
+        margin-left: 80px;
+    }.contact .contact-content button{
+       margin-left: 80px;
+    }
+}
+@media (max-width:469px){
+    .contact .contact-content .left{
+        margin-left: 80px;
+    }
+    .contact .right{
+        margin-left: 60px;
+    }.contact .contact-content button{
+       margin-left: 60px;
+       padding: 10px 5px;
+    }
+}
+@media (max-width:415px){
+    .contact .contact-content .left{
+        margin-left: 50px;
+    }
+    .contact .right{
+        margin-left: 10px;
+    }
+    .contact .contact-content button{
+       margin-left: 60px;
+       padding: 10px 5px;
+    }
+}
+@media (max-width:355px){
+    .max-width{
+    padding: 0 40px;
+    }
+    .contact .contact-content .left{
+        margin-left: 40px;
+    }
+    .contact .right{
+        margin-left: 10px;
+    }
+}

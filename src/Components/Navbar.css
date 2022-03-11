@@ -1,0 +1,92 @@
+/* *************Navbar styling*************** */
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+nav{
+  height: 80px;
+  background-color: crimson;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+nav .logo{
+  padding: 18px 24px;
+  font-size: 34px;
+  font-weight: 500;
+  color: white;
+}
+nav .logo span{
+  color: black;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav li a{
+  color: white;
+  text-decoration: none;
+  margin-left: 26px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav li a:hover{
+  color:#006280 ;
+  text-decoration: underline;
+}
+nav .menu{
+  margin-right: 30px;
+  color: white;
+  display: none;
+}
+#click:checked ~ ul{
+  left: 0%;
+}
+#click{
+  display: none;
+}
+
+@media (max-width: 940px){
+nav .menu{
+  display: block;
+}
+ nav ul{
+   position: fixed;
+   top: 80px;
+   left: -100%;
+   background-color: crimson;
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   transform: all 2s ease;
+ }
+ nav ul li{
+   padding-bottom: 8px;
+ }
+ nav .logo{
+  padding-left: 55px;
+}
+}
+@media (max-width:469px){
+  nav{
+    width: 100%;
+  }
+}
+@media (max-width:355px){
+  nav ul{
+    width: 100%;
+  }
+  nav .logo{
+    padding: 18px 24px;
+  }
+  nav ul li{
+    margin-left: -30px;
+  }
+}

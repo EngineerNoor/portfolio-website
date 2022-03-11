@@ -1,0 +1,182 @@
+section{
+    padding: 100px 0;
+}
+.myworks{
+    font-family: 'Poppins',sans-serif;
+}
+.myworks .title{
+    text-align: center;
+    color: white;
+}
+.myworks-content{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .box1{
+    height: 229px;
+    width: 316px;
+    border: 1px solid #062d3c;
+    margin-bottom: 22px;
+    position: relative;
+    border-radius: 6px;
+  }
+   .box1 img{
+    width: 316px;
+    height: 229px;
+    display: block;
+    border-radius: 6px;
+  } 
+  
+   .box1 .portfolioLink{
+     position: absolute;
+     background-color: #095460;
+     width: 322px ;
+     height: 237px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: black;
+     flex-direction: column;
+     border: 1px solid #062d3c;
+     opacity: 0;
+     transform: translate(-50%, -50%);
+     top: 50%;
+     left: 50%;
+     border-radius: 6px;
+  }  
+  .box1 .portfolioLink h2{
+    font-size: 23px;
+      color: white;
+  }
+  .portfolioLink button{
+     margin-top: 20px;
+      cursor: pointer;
+      background-color:white ;
+      padding: 4px;
+      margin-top: 12px;
+      font-size: 18px;
+      border-radius: 5px;
+      width: 102px;
+      outline: none;
+      border: 1px solid white;
+      margin-bottom: 6px;
+      color: #13626c;
+      cursor: pointer;
+  }
+  .box1 .portfolioLink button a{
+    text-decoration: none;
+    padding: 70px 12px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .box1:hover .portfolioLink{
+    opacity: 1;
+  }
+  @media (max-width:796px){
+    .myworks-content{
+      justify-content: space-between;
+    }
+    .box1{
+      height: 220px;
+      width: 290px;
+    }
+    .box1 .portfolioLink{
+      width: 296px ;
+      height: 228px;
+   }
+   .box1 img{
+    width: 290px;
+    height: 220px;
+  } 
+  }
+  @media (max-width:745px){
+    .myworks-content{
+      justify-content: space-between;
+    }
+    .box1{
+      height: 220px;
+      width: 250px;
+      margin-top: 10px;
+    }
+    .box1 .portfolioLink{
+      width: 256px ;
+      height: 228px;
+   }
+   .box1 img{
+    width: 250px;
+    height: 220px;
+  } 
+  }
+  @media (max-width:665px){
+    .box1{
+      height: 300px;
+      width: 350px;
+      margin-top: 10px;
+      margin-left: 70px;
+    }
+    .box1 .portfolioLink{
+      width: 356px ;
+      height: 308px;
+   }
+   .box1 img{
+    width: 350px;
+    height: 300px;
+  } 
+  }
+  @media (max-width:565px){
+    .box1{
+      margin-left: 40px;
+    }
+  }
+  @media (max-width:469px){
+    .box1{
+      height: 200px;
+      width: 250px;
+      margin-top: 10px;
+    }
+    .box1 .portfolioLink{
+      width: 256px ;
+      height: 208px;
+   }
+   .box1 img{
+    width: 250px;
+    height: 200px;
+  } 
+  }
+  @media (max-width:415px){
+    .box1{
+      height: 180px;
+      width: 200px;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+    .box1 .portfolioLink{
+      width: 206px ;
+      height: 188px;
+   }
+   .box1 img{
+    width: 200px;
+    height: 180px;
+  } 
+  }
+  @media (max-width:403px){
+    .max-width{
+      padding: 0 40px;
+     }
+    .box1{
+      margin-top: 5px;
+      margin-left: 55px;
+    }
+  }
+  @media (max-width:355px){
+    .max-width{
+      padding: 0 40px;
+     }
+    .box1{
+      margin-top: 5px;
+      margin-left: 25px;
+    }
+  }
